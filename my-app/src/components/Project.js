@@ -6,7 +6,7 @@ const Project = ({ project, onDelete }) => {
             <span className="float-right mt-0 text-danger">
                 <FaTrashAlt style={{cursor: 'pointer'}} onClick={() => onDelete(project.id)} />
             </span>
-            {project.project_name}<br />{project.due_date} 
+            {project.project_name}<br />{project.date_created} 
         </p>
     )
 }

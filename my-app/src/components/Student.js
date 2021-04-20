@@ -1,7 +1,7 @@
-const Student = ({ name, major, interest }) => {
+const Student = ({ name, major, interest, onAdd, showAdd }) => {
     return (
-        <div className="border m-2 p-3">
-            <h2 className="bg-light">{name}</h2>
+        <div>
+            <h2 className="mb-3">{name}</h2>
             <h5>{major}</h5>
             <p>{interest}</p>
         </div>

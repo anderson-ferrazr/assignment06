@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+        "id" : 1,
+        "project_name" : "PHP Laravel API",
+        "due_date" : "February 20, 2021",
+        "reminder": "true"
+    },
+    {
+        "id" : 2,
+        "project_name" : "Python Django Web application",
+        "due_date" : "March 20, 2021",
+        "reminder": "false"
+    },
+    {
+        "id" : 3,
+        "project_name" : "Angular front end",
+        "due_date" : "June 20, 2021",
+        "reminder": "false"
+    }
+  ]
+}
